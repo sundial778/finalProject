@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+<title>Sam's Pc Salvage</title>
+
+</head>
+
+<body>
+
+<div class="container"> 
+
+<div class="adr">
+
+<p>3338 boring rd<br>Decatur, GA 30034
+
+<br>Open: M-F, 9am-5pm</p>
+
+<b style="color:#009446;">Phone: 347-707-3676</b>
+
+</div> 
+
+<a href="index.html"><img class="l1" src="images/logo.png" alt="recyclepower"></a>  
+
+<div class="top">
+
+<h1>Sam's Pc Recycling and Salvage</h1> 
+
+<h4 style="font-weight:lighter; color:#2d84b6;"><i>Save Time, Save The Planet</i></h4>
+
+</div>
+
+<hr>
+
+<div class="nav"> <span><a href="index.html">Home</a></span>
+
+<span><a href="for-sale.html">For Sale</a></span>
+
+<span><a href="repairs.html">Repairs</a></span>
+
+<span><a href="appraisal.html">Request An Appraisal</a></span>
+
+<span><a href="about.html">About Us</a></span></div>
+
+<hr>
+<div id="adiv"><h3 style="font-weight:lighter;">Think your equipment has value? Fill out this form and we will let you know.</h3>
+
+<div id="v2">
+
+<video width="400" height="240"  loop autoplay>
+
+<source src="videos/movie2.mp4" type="video/mp4"></video>
+
+<br />
+
+<h2 style="text-shadow: 2px 2px 2px #2d84b6; font-size:14px; padding-right:10px;"><i>"The appraisal process was very informative <br /> 
+and I am glad to know how much my <br />equipment was worth..."</i> <span style="font-weight:lighter;"><br /> Ronald Jones<br /> Customer since 2016</span></h2>
+
+</div>
+
+<form>
+ 
+Company Name:<br />
+ 
+<input id = 'cNam'type="text" name="Company name"><br />
+
+Full Name:<br />
+  <input id ='fNam' type="text" name="full name"><br />
+ Email:<br />
+  <input id ='ema' type="text" name="Email"><br />
+
+  Product type<br />
+  <select>
+  <option value="Computer component">Computer Component</option>
+  <option value="Electronics"> Miscellaneous Electronics</option>
+  <option value="Monitor/tv"> Monitors/TV</option>
+  <option value="Cellphone/tablet">Cellphones/Tablets</option>
+  <option value="Other">Other/not listed</option>
+</select><br />
+  Is the product in working order?<br />
+  <input type="radio" name="functional" value="yes" checked> Yes<br />
+  <input type="radio" name="functional" value="no"> No<br />
+  <input type="radio" name="functional" value="Unsure"> Unknown<br />
+  
+</form>
+<div id="txe">
+<span >If You would like an appraisal, briefly tell us about the items that you have. After you submit, we will be in contact with you within 24 hours.</span> <br /> 
+<textarea rows="4" cols="60">
+</textarea><br /></div>
+<button onClick = 'alertMe()' type="button">Submit</button>
+ <a href="appraisal.html" style="color:black;"><button type="button">Reset</button></a>
+</div>
+</div>
+		<script>
+  var alertMe = function()
+  {
+    if(document.getElementById('fNam').value == false)
+    {
+      alert("Please enter your full name")
+    }
+    else if(document.getElementById('cNam').value == false)
+    {
+       alert("please enter your company name")
+    }
+        
+    else if(document.getElementById('ema').value == false)
+    {
+      alert("Please enter your email address")
+    }
+    else
+    {
+      window.location.href = "thank-you.html" ;
+    }
+  } 
+</script>
+	
+</body>
+</html>

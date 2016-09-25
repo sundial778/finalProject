@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+<title>Sam's Pc Salvage</title>
+
+</head>
+
+<body>
+
+<div class="container"> 
+
+<div class="adr">
+
+<p>3338 boring rd<br>Decatur, GA 30034
+
+<br>Open: M-F, 9am-5pm</p>
+
+<b style="color:#009446;">Phone: 347-707-3676</b>
+
+</div> 
+
+<a href="index.html"><img class="l1" src="images/logo.png" alt="recyclepower"></a>	
+
+<div class="top">
+
+<h1>Sam's Pc Recycling and Salvage</h1> 
+
+<h4 style="font-weight:lighter; color:#2d84b6;"><i>Save Time, Save The Planet</i></h4>
+
+</div>
+
+<hr>
+
+<div class="nav"> <span><a href="index.html">Home</a></span>
+
+<span><a href="for-sale.html">For Sale</a></span>
+
+<span><a href="repairs.html">Repairs</a></span>
+
+<span><a href="appraisal.html">Request An Appraisal</a></span>
+
+<span><a href="about.html">About Us</a></span></div>
+
+<hr>
+
+
+<div id="mcontent">
+<div id="mpage"> <h3 style="font-weight:lighter; z-index: 100; ;">Recycle Your Old PC Parts And Electronics.</h3>
+
+<div id="v1">
+
+<ul id="slides">
+    <li class="slide showing"><img src ="images/ewaste.jpg" alt = "ewaste" style = "height:100%; width:100%;"></li>
+    <li class="slide"><img src ="images/ewaste2.jpg" alt = "ewaste" style = "height:100%; width:100%;"></li>
+    <li class="slide"><img src ="images/ewaste3.jpg" alt = "ewaste" style = "height:100%; width:100%;"></li>
+    <li class="slide"><img src ="images/ewaste4.jpg" alt = "ewaste" style = "height:100%; width:100%;"></li>
+    <li class="slide"><img src ="images/ewaste5.jpg" alt = "ewaste" style = "height:100%; width:100%;"></li>
+</ul>
+<!-- <video width="400" height="240"  loop autoplay>
+
+<source src="videos/movie.mp4" type="video/mp4">
+
+</video> --></div>
+
+
+
+<hr style="border-top: dotted 1px; margin-top: 25px;" /> <p class="ipg1"> We are a electronics and hardware recycling and waste managment company dedicated to sustainability. 
+Millions of different circuit boards go to waste each year. These pack landfills and leach toxic metals into the soil and water. We aim to be a zero waste 
+facility, and with the help of our corporate partners, we maintain this standard of eco- friendly waste management for the next generation to come.</p>
+<p id="abc"> this is old text </p>
+</div>
+
+<hr style="border-top: dotted 1px;" />
+
+<div id="c1"> <a href="appraisal.html"><h3  style="font-weight:lighter;">Appraisals</h3> <img src="images/app.jpg" alt="value" style="width: 220px; height: 200px;">  </a> <p class="ldisc">Does your equipment still work? <br />Are you in the process of upgrading?<br /> Feel free to click and send us a list<br /> of what you have, or schedule one of<br /> our inventory experts to take a look.
+
+</p> 
+
+<a href="appraisal.html">Learn More</a> 
+
+</div>
+
+<div id="c2">
+
+<a href="Repairs.html"><h3 style="font-weight:lighter;">Repair Service</h3>
+
+<img src="images/pcr.jpg" alt="repairs" style="width: 220px; height: 200px;">
+
+</a> 
+
+
+<p class="ldisc">We offer repairs for select items.<br />
+
+ For a full list, click here.</p> 
+
+<a href="repairs.html">Learn More</a>
+
+</div>
+<div id="tbx"> <h2 class="tst">
+
+<i>" ...they are knowlegable
+
+<br />and efficient. With their help
+
+<br />I cleared out 5 years
+
+<br /> worth of parts..."</i>
+
+</h2>-Mike Wilks <br />Customer since 2016</div>
+
+</div>
+
+</div>
+<script >
+	 document.getElementById("abc").innerHTML = "Our company uses an innovative method to extract all toxic materials from circuit boards and repurpose them for reuse or careful disposal. We can accept any product with a circuit board or wiring. We offer repairs and resale of select products. For more information, follow the links."
+
+var slides = document.querySelectorAll('#slides .slide');
+var currentSlide = 0;
+var slideInterval = setInterval(nextSlide,8000);
+
+function nextSlide() {
+    slides[currentSlide].className = 'slide';
+    currentSlide = (currentSlide+1)%slides.length;
+    slides[currentSlide].className = 'slide showing';
+}
+</script>
+
+</body>
+
+</html>
