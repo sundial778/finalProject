@@ -1,14 +1,14 @@
 body {
- font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     font-size: 15px;
     margin: 0 auto;
     padding: 0;
     color: #000044;
     line-height: 20px;
-    background-color: #ebeceb;}
-
-.container{
-	width: 940px;
+    background-color: #ebeceb;
+}
+.container {
+    width: 940px;
     margin: 0 auto;
     margin-top: 0px;
     margin-right: auto;
@@ -21,203 +21,179 @@ body {
     height: 92px;
     border-top: solid 0px #2d84b6;
     padding: 22px 0px 0px 0px;
-
 }
 .adr {
     float: right;
     width: 200px;
     text-align: right;
-	margin: 0px;
+    margin: 0px;
     padding: 0px;
 }
-.logo{
-	max-height:60px;
-	max-width:60px;
-	
-	
-
+.logo {
+    max-height: 60px;
+    max-width: 60px;
 }
-h1{
-	color:#009446;
-	 font-size: 38px;
-   	margin-left:10px;
-     font-weight: lighter;
+h1 {
+    color: #009446;
+    font-size: 38px;
+    margin-left: 10px;
+    font-weight: lighter;
     text-align: center;
 }
-.l1{
-	    height: 92px;
+.l1 {
+    height: 92px;
     border-top: solid 1px #2d84b6;
-    float:left;
-   
-     
+    float: left;
 }
-.nav{
-	display:inline;
-	text-align: center;
+.nav {
+    display: inline;
+    text-align: center;
 }
-span{
-	margin-left: 10px;
-	margin-right:10px;
+span {
+    margin-left: 10px;
+    margin-right: 10px;
 }
-a{
+a {
     text-decoration: none;
 }
-a:hover{ color:#2d84b6;
-	opacity:0.743191287;
+a:hover {
+    color: #2d84b6;
+    opacity: 0.743191287;
 }
-a:visited{
-	color:#ff0012;
-  text-decoration: underline;
+a:visited {
+    color: #ff0012;
+    text-decoration: underline;
 }
-#mcontent{ padding:1px;
-
+#mcontent {
+    padding: 1px;
 }
-#v1{
-    
+#v1 {
     margin-left: auto;
-    }
-#fcontent{
-
 }
-#disclaimer{
-    display:inline-block;
+#fcontent {} #disclaimer {
+    display: inline-block;
     font-size: 10px;
 }
-.pd{
-height:50%;
-    width:50%;
+.pd {
+    height: 50%;
+    width: 50%;
 }
-
-.sale{
-   max-width: 51%;
-   max-height: 51%;
-    padding:3px;
-    border:2px  outset;
-    float:left;
-    margin:14px;
-    display:inline;
+.sale {
+    max-width: 51%;
+    max-height: 51%;
+    padding: 3px;
+    border: 2px outset;
+    float: left;
+    margin: 14px;
+    display: inline;
     text-align: center;
     position: relative;
     left: 10%;
-
 }
-#acontent{ padding-bottom: 10px;
-
-
+#acontent {
+    padding-bottom: 10px;
 }
-
-#v2{
-    float:right;
+#v2 {
+    float: right;
     position: relative;
-    left:0%;
+    left: 0%;
     display: inline;
 }
-#adiv{
-    display:inline-block;
-    position: relative;
-
-}
-#abcontent{ 
-   padding:1px;
-}
-#letter{
-     display: inline-block;
-     max-width:50%;
-     display: inline-flex;
-     position:relative;
-     left:10%;
-
-}
-#fimg{
-    display:inline-block;
-    float:right;
-    position:relative;
-    right:10%;
-    bottom:30px;
-}
-#fd{
-    margin-top: 4px; 
-
-}
-#rcontent{
-
-}
-#ca
-{ float: right; width: 33%; 
-    
-}
-#cb{ float: left; width: 33%;
-   
-}
-#cc{ display: inline-block; width: 33%; 
- 
-}
-.rform{float:left;
-    width:33%;
-    margin-top: 20px;
-
-}
-
-    #reps{
-        position:relative;
-       
+#adiv {
     display: inline-block;
-    width:33%;
-    }
-
-h3{
-     font-weight: lighter;
-     font-size: 18px;
-     margin:2px;
+    position: relative;
 }
-.ipg{
-    font-size:15px;
+#abcontent {
+    padding: 1px;
 }
-#c1{
-    padding:10px 10px 22px 10px;
-    display:inline-block;
-
-
+#letter {
+    display: inline-block;
+    max-width: 50%;
+    display: inline-flex;
+    position: relative;
+    left: 10%;
 }
-.ldisc{
+#fimg {
+    display: inline-block;
+    float: right;
+    position: relative;
+    right: 10%;
+    bottom: 30px;
+}
+#fd {
+    margin-top: 4px;
+}
+#rcontent {} #ca {
+    float: right;
+    width: 33%;
+}
+#cb {
+    float: left;
+    width: 33%;
+}
+#cc {
+    display: inline-block;
+    width: 33%;
+}
+.rform {
+    float: left;
+    width: 33%;
+    margin-top: 20px;
+}
+#reps {
+    position: relative;
+    display: inline-block;
+    width: 33%;
+}
+h3 {
+    font-weight: lighter;
+    font-size: 18px;
     margin: 2px;
-   font-size:15px;
 }
-#c2{
-    padding:10px 10px 22px 10px;
-    display:inline-block;
-    float:right;
- position: relative;
-      right: 35%;
+.ipg {
+    font-size: 15px;
 }
-#tbx{
-     float:right;
-    display:inline-block;
-    position:relative;
-    left:20%;
-     text-shadow: 2px 2px 2px #2d84b6;
-     font-size:12px;
-     }
-#txe{
+#c1 {
+    padding: 10px 10px 22px 10px;
+    display: inline-block;
 }
-ul{
+.ldisc {
+    margin: 2px;
+    font-size: 15px;
+}
+#c2 {
+    padding: 10px 10px 22px 10px;
+    display: inline-block;
+    float: right;
+    position: relative;
+    right: 35%;
+}
+#tbx {
+    float: right;
+    display: inline-block;
+    position: relative;
+    left: 20%;
+    text-shadow: 2px 2px 2px #2d84b6;
+    font-size: 12px;
+}
+#txe {} ul {
     list-style: circle;
     list-style-image: url(images/logo.png);
-
 }
-li{ margin:10px;
-
+li {
+    margin: 10px;
 }
-#ul1{
-  width:80%;
+#ul1 {
+    width: 80%;
 }
-.prd:hover{ opacity:1.0;
+.prd:hover {
+    opacity: 1.0;
 }
-.prd:visited{
-    color:gray;
+.prd:visited {
+    color: gray;
 }
-.prd{
-    color:#2d84b6;
+.prd {
+    color: #2d84b6;
 }
 #slides {
     position: relative;
@@ -226,7 +202,6 @@ li{ margin:10px;
     margin: 0px;
     list-style-type: none;
 }
-
 .slide {
     position: absolute;
     left: 0px;
@@ -235,12 +210,9 @@ li{ margin:10px;
     height: 100%;
     opacity: 0;
     z-index: 1;
-	margin:0px;
-
-   
+    margin: 0px;
     transition: opacity 6s;
 }
-
 .showing {
     opacity: 1;
     z-index: 2;
@@ -252,22 +224,21 @@ li{ margin:10px;
     background: #333;
     color: #fff;
 }
-
 .slide:nth-of-type(1) {
-    background:  #009446 ;
+    background: #009446;
 }
 .slide:nth-of-type(2) {
-    background:  #009446;
+    background: #009446;
 }
 .slide:nth-of-type(3) {
     background: #009446;
 }
 .slide:nth-of-type(4) {
-    background:  #009446;
+    background: #009446;
 }
 .slide:nth-of-type(5) {
     background: #009446;
 }
-#typ{ 
-opacity:1;
+#typ {
+    opacity: 1;
 }
